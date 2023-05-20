@@ -1,0 +1,68 @@
+c:\users\burak\documents\visual studio 2013\Projects\SinanInc\SinanInc\bin\Debug\SinanInc.exe.config
+C:\Users\Burak\documents\visual studio 2013\Projects\SinanInc\SinanInc\bin\Debug\SinanInc.exe
+C:\Users\Burak\documents\visual studio 2013\Projects\SinanInc\SinanInc\bin\Debug\SinanInc.pdb
+C:\Users\Burak\documents\visual studio 2013\Projects\SinanInc\SinanInc\obj\Debug\SinanInc.csprojResolveAssemblyReference.cache
+C:\Users\Burak\documents\visual studio 2013\Projects\SinanInc\SinanInc\obj\Debug\SinanInc.PL.FRM_Login.resources
+C:\Users\Burak\documents\visual studio 2013\Projects\SinanInc\SinanInc\obj\Debug\SinanInc.Properties.Resources.resources
+C:\Users\Burak\documents\visual studio 2013\Projects\SinanInc\SinanInc\obj\Debug\SinanInc.csproj.GenerateResource.Cache
+C:\Users\Burak\documents\visual studio 2013\Projects\SinanInc\SinanInc\obj\Debug\SinanInc.exe
+C:\Users\Burak\documents\visual studio 2013\Projects\SinanInc\SinanInc\obj\Debug\SinanInc.pdb
+C:\Users\Burak\documents\visual studio 2013\Projects\SinanInc\SinanInc\obj\Debug\SinanInc.PL.FRM_Main.resources
+C:\Users\Burak\documents\visual studio 2013\Projects\SinanInc\SinanInc\obj\Debug\SinanInc.PL.FRM_STUDENT_FILE.resources
+C:\Users\Burak\documents\visual studio 2013\Projects\SinanInc\SinanInc\obj\Debug\SinanInc.PL.FRM_MAKE_APAYMENT.resources
+C:\Users\Burak\documents\visual studio 2013\Projects\SinanInc\SinanInc\obj\Debug\SinanInc.PL.FRM_SHOW_STUDENTS.resources
+C:\Users\Burak\documents\visual studio 2013\Projects\SinanInc\SinanInc\obj\Debug\SinanInc.PL.FRM_ADD_NEW_CLASS.resources
+C:\Users\Burak\documents\visual studio 2013\Projects\SinanInc\SinanInc\obj\Debug\SinanInc.PL.FRM_SCHEDULE.resources
+C:\Users\Burak\documents\visual studio 2013\Projects\SinanInc\SinanInc\obj\Debug\SinanInc.PL.FRM_CLASS_ROOM.resources
+C:\Users\Burak\documents\visual studio 2013\Projects\SinanInc\SinanInc\obj\Debug\SinanInc.PL.FRM_ADD_NEW_COURSE.resources
+C:\Users\Burak\documents\visual studio 2013\Projects\SinanInc\SinanInc\obj\Debug\SinanInc.PL.FRM_SHOW_COURSES.resources
+C:\Users\Burak\documents\visual studio 2013\Projects\SinanInc\SinanInc\obj\Debug\SinanInc.PL.FRM_SHOW_CLASSES.resources
+C:\Users\Burak\documents\visual studio 2013\Projects\SinanInc\SinanInc\obj\Debug\SinanInc.PL.FRM_SHOW_TEACHERS.resources
+C:\Users\nanan\Desktop\SinanInc\SinanInc\bin\Debug\SinanInc.exe.config
+C:\Users\nanan\Desktop\SinanInc\SinanInc\obj\Debug\SinanInc.exe
+C:\Users\nanan\Desktop\SinanInc\SinanInc\obj\Debug\SinanInc.pdb
+C:\Users\nanan\Desktop\SinanInc\SinanInc\bin\Debug\SinanInc.exe
+C:\Users\nanan\Desktop\SinanInc\SinanInc\bin\Debug\SinanInc.pdb
+C:\Users\nanan\Desktop\SinanInc\SinanInc\obj\Debug\SinanInc.csprojResolveAssemblyReference.cache
+C:\Users\nanan\Desktop\SinanInc\SinanInc\obj\Debug\SinanInc.PL.FRM_ADD_DAILY_COURSES.resources
+C:\Users\nanan\Desktop\SinanInc\SinanInc\obj\Debug\SinanInc.PL.FRM_ADD_DAILY_TESTS.resources
+C:\Users\nanan\Desktop\SinanInc\SinanInc\obj\Debug\SinanInc.PL.FRM_ADD_NEW_CLASS.resources
+C:\Users\nanan\Desktop\SinanInc\SinanInc\obj\Debug\SinanInc.PL.FRM_ADD_NEW_COURSE.resources
+C:\Users\nanan\Desktop\SinanInc\SinanInc\obj\Debug\SinanInc.PL.FRM_ADD_NEW_STUDENT.resources
+C:\Users\nanan\Desktop\SinanInc\SinanInc\obj\Debug\SinanInc.PL.FRM_ADD_NEW_TEACHER.resources
+C:\Users\nanan\Desktop\SinanInc\SinanInc\obj\Debug\SinanInc.PL.FRM_ADD_NEW_TEST.resources
+C:\Users\nanan\Desktop\SinanInc\SinanInc\obj\Debug\SinanInc.PL.FRM_Add_New_User.resources
+C:\Users\nanan\Desktop\SinanInc\SinanInc\obj\Debug\SinanInc.PL.FRM_CLASS_ROOM.resources
+C:\Users\nanan\Desktop\SinanInc\SinanInc\obj\Debug\SinanInc.PL.FRM_MAKE_APAYMENT.resources
+C:\Users\nanan\Desktop\SinanInc\SinanInc\obj\Debug\SinanInc.PL.FRM_SCHEDULE.resources
+C:\Users\nanan\Desktop\SinanInc\SinanInc\obj\Debug\SinanInc.PL.FRM_SESSIONS_DATE.resources
+C:\Users\nanan\Desktop\SinanInc\SinanInc\obj\Debug\SinanInc.PL.FRM_SHOW_CLASSES.resources
+C:\Users\nanan\Desktop\SinanInc\SinanInc\obj\Debug\SinanInc.PL.FRM_SHOW_CLASS_STUDENTS.resources
+C:\Users\nanan\Desktop\SinanInc\SinanInc\obj\Debug\SinanInc.PL.FRM_SHOW_COURSES.resources
+C:\Users\nanan\Desktop\SinanInc\SinanInc\obj\Debug\SinanInc.PL.FRM_SHOW_STUDENTS.resources
+C:\Users\nanan\Desktop\SinanInc\SinanInc\obj\Debug\SinanInc.PL.FRM_Login.resources
+C:\Users\nanan\Desktop\SinanInc\SinanInc\obj\Debug\SinanInc.PL.FRM_Main.resources
+C:\Users\nanan\Desktop\SinanInc\SinanInc\obj\Debug\SinanInc.PL.FRM_SHOW_TEACHERS.resources
+C:\Users\nanan\Desktop\SinanInc\SinanInc\obj\Debug\SinanInc.PL.FRM_STUDENT_FILE.resources
+C:\Users\nanan\Desktop\SinanInc\SinanInc\obj\Debug\SinanInc.PL.FRM_TEACHER_FILE.resources
+C:\Users\nanan\Desktop\SinanInc\SinanInc\obj\Debug\SinanInc.PL.FRM_TESTS.resources
+C:\Users\nanan\Desktop\SinanInc\SinanInc\obj\Debug\SinanInc.PL.FRM_Users_Management.resources
+C:\Users\nanan\Desktop\SinanInc\SinanInc\obj\Debug\SinanInc.Properties.Resources.resources
+C:\Users\nanan\Desktop\SinanInc\SinanInc\obj\Debug\SinanInc.csproj.GenerateResource.Cache
+C:\Users\nanan\Desktop\SinanInc\SinanInc\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\nanan\Desktop\SinanInc\SinanInc\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\Burak\documents\visual studio 2013\Projects\SinanInc\SinanInc\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\Burak\documents\visual studio 2013\Projects\SinanInc\SinanInc\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Burak\documents\visual studio 2013\Projects\SinanInc\SinanInc\obj\Debug\SinanInc.RPT.FRM_RPT_SCHEDULE.resources
+C:\Users\Burak\documents\visual studio 2013\Projects\SinanInc\SinanInc\obj\Debug\SinanInc.PL.FRM_PAYMENT_RECORD.resources
+C:\Users\Burak\documents\visual studio 2013\Projects\SinanInc\SinanInc\obj\Debug\SinanInc.PL.FRM_ADD_SCHEDULE.resources
+C:\Users\Burak\documents\visual studio 2013\Projects\SinanInc\SinanInc\obj\Debug\SinanInc.PL.FRM_TEACHER_SALARY.resources
+C:\Users\Burak\documents\visual studio 2013\Projects\SinanInc\SinanInc\bin\Debug\BCrypt.Net-Next.dll
+C:\Users\Burak\documents\visual studio 2013\Projects\SinanInc\SinanInc\bin\Debug\BCrypt.Net-Next.xml
+C:\Users\Burak\documents\visual studio 2013\Projects\SinanInc\SinanInc\obj\Debug\SinanInc.PL.FRM_BACKUP.resources
+C:\Users\Burak\documents\visual studio 2013\Projects\SinanInc\SinanInc\obj\Debug\SinanInc.PL.FRM_RESTORE.resources
+C:\Users\Burak\documents\visual studio 2013\Projects\SinanInc\SinanInc\obj\Debug\SinanInc.PL.FRM_CONFIG.resources
+C:\Users\Burak\documents\visual studio 2013\Projects\SinanInc\SinanInc\bin\Debug\SinanInc.exe.manifest
+C:\Users\Burak\documents\visual studio 2013\Projects\SinanInc\SinanInc\bin\Debug\SinanInc.application
+C:\Users\Burak\documents\visual studio 2013\Projects\SinanInc\SinanInc\obj\Debug\SinanInc.exe.manifest
+C:\Users\Burak\documents\visual studio 2013\Projects\SinanInc\SinanInc\obj\Debug\SinanInc.application

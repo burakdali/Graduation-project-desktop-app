@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FD638F55-88CC-4F10-8A35-A9408D40657C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SinanInc</RootNamespace>
+    <AssemblyName>SinanInc</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>FB3DF09607835488A8BC1438E7EFDC84B67F9728</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>SinanInc_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BCrypt.Net">
+      <HintPath>..\packages\BCrypt.Net.0.1.0\lib\net35\BCrypt.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="BCrypt.Net-Core">
+      <HintPath>..\packages\BCrypt.Net-Core.1.6.0\lib\net45\BCrypt.Net-Core.dll</HintPath>
+    </Reference>
+    <Reference Include="BCrypt.Net-Next">
+      <HintPath>..\packages\BCrypt.Net-Next.4.0.2\lib\net40\BCrypt.Net-Next.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="DevOne.Security.Cryptography.BCrypt">
+      <HintPath>..\packages\BCrypt.1.0.0.0\lib\DevOne.Security.Cryptography.BCrypt.dll</HintPath>
+    </Reference>
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="FontAwesome.Sharp">
+      <HintPath>..\packages\FontAwesome.Sharp.5.15.3\lib\net45\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BL\CLS_CLASSES.cs" />
+    <Compile Include="BL\CLS_COURSE.cs" />
+    <Compile Include="BL\CLS_LOGIN.cs" />
+    <Compile Include="BL\CLS_STUDENTS.cs" />
+    <Compile Include="BL\CLS_TEACHERS.cs" />
+    <Compile Include="BL\CLS_USERS.cs" />
+    <Compile Include="DAL\DataAccessLayer.cs" />
+    <Compile Include="PL\FRM_ADD_NEW_CLASS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_ADD_NEW_CLASS.Designer.cs">
+      <DependentUpon>FRM_ADD_NEW_CLASS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_ADD_NEW_COURSE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_ADD_NEW_COURSE.Designer.cs">
+      <DependentUpon>FRM_ADD_NEW_COURSE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_ADD_SCHEDULE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_ADD_SCHEDULE.Designer.cs">
+      <DependentUpon>FRM_ADD_SCHEDULE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_BACKUP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_BACKUP.Designer.cs">
+      <DependentUpon>FRM_BACKUP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_CLASS_ROOM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_CLASS_ROOM.Designer.cs">
+      <DependentUpon>FRM_CLASS_ROOM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_CONFIG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_CONFIG.Designer.cs">
+      <DependentUpon>FRM_CONFIG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_MAKE_APAYMENT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_MAKE_APAYMENT.Designer.cs">
+      <DependentUpon>FRM_MAKE_APAYMENT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_PAYMENT_RECORD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_PAYMENT_RECORD.Designer.cs">
+      <DependentUpon>FRM_PAYMENT_RECORD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_RESTORE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_RESTORE.Designer.cs">
+      <DependentUpon>FRM_RESTORE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_SCHEDULE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_SCHEDULE.Designer.cs">
+      <DependentUpon>FRM_SCHEDULE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_SHOW_CLASSES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_SHOW_CLASSES.Designer.cs">
+      <DependentUpon>FRM_SHOW_CLASSES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_SHOW_COURSES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_SHOW_COURSES.Designer.cs">
+      <DependentUpon>FRM_SHOW_COURSES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_SHOW_STUDENTS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_SHOW_STUDENTS.Designer.cs">
+      <DependentUpon>FRM_SHOW_STUDENTS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_Login.Designer.cs">
+      <DependentUpon>FRM_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_Main.Designer.cs">
+      <DependentUpon>FRM_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_SHOW_TEACHERS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_SHOW_TEACHERS.Designer.cs">
+      <DependentUpon>FRM_SHOW_TEACHERS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_STUDENT_FILE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_STUDENT_FILE.Designer.cs">
+      <DependentUpon>FRM_STUDENT_FILE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_TEACHER_SALARY.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_TEACHER_SALARY.Designer.cs">
+      <DependentUpon>FRM_TEACHER_SALARY.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RPT\FRM_RPT_SCHEDULE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RPT\FRM_RPT_SCHEDULE.Designer.cs">
+      <DependentUpon>FRM_RPT_SCHEDULE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RPT\rpt_schedule.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_schedule.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="PL\FRM_ADD_NEW_CLASS.resx">
+      <DependentUpon>FRM_ADD_NEW_CLASS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_ADD_NEW_COURSE.resx">
+      <DependentUpon>FRM_ADD_NEW_COURSE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_ADD_SCHEDULE.resx">
+      <DependentUpon>FRM_ADD_SCHEDULE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_BACKUP.resx">
+      <DependentUpon>FRM_BACKUP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_CLASS_ROOM.resx">
+      <DependentUpon>FRM_CLASS_ROOM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_CONFIG.resx">
+      <DependentUpon>FRM_CONFIG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_MAKE_APAYMENT.resx">
+      <DependentUpon>FRM_MAKE_APAYMENT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_PAYMENT_RECORD.resx">
+      <DependentUpon>FRM_PAYMENT_RECORD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_RESTORE.resx">
+      <DependentUpon>FRM_RESTORE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_SCHEDULE.resx">
+      <DependentUpon>FRM_SCHEDULE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_SHOW_CLASSES.resx">
+      <DependentUpon>FRM_SHOW_CLASSES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_SHOW_COURSES.resx">
+      <DependentUpon>FRM_SHOW_COURSES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_SHOW_STUDENTS.resx">
+      <DependentUpon>FRM_SHOW_STUDENTS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_Login.resx">
+      <DependentUpon>FRM_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_Main.resx">
+      <DependentUpon>FRM_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_SHOW_TEACHERS.resx">
+      <DependentUpon>FRM_SHOW_TEACHERS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_STUDENT_FILE.resx">
+      <DependentUpon>FRM_STUDENT_FILE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_TEACHER_SALARY.resx">
+      <DependentUpon>FRM_TEACHER_SALARY.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RPT\FRM_RPT_SCHEDULE.resx">
+      <DependentUpon>FRM_RPT_SCHEDULE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\rpt_schedule.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_schedule.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="SinanInc_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_highlight_off_black_48dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
